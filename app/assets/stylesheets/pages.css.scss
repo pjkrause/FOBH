@@ -1,3 +1,32 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+    display: block;
+    width: 700px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+
+}
+
+header {
+    height: 150px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 60px;
+    background-image: url(boxhill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #39E639;
+}
+
+nav li {
+     text-decoration: none;
+     display: inline;
+}
