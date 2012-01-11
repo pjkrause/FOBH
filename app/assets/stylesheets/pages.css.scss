@@ -20,6 +20,7 @@ header {
     background-image: url(boxhill.jpg);
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 header h1 {
@@ -34,6 +35,9 @@ nav {
     background-color: #39E639;
 }
 
+nav ul {
+    margin: 0px;
+}
 nav li {
      text-decoration: none;
      display: inline;
