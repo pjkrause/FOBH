@@ -41,8 +41,18 @@ nav ul {
 nav li {
      text-decoration: none;
      display: inline;
+     border-left: 1px solid #FFF;
+     border-right: 1px solid #FFF;
+     padding-left: 5px;
+     padding-right: 5px;
+     font-size: 14pt;
+     font-family: sans-serif;
 }
 
+img#text_decoration {
+     float: left;
+     margin-right: 15px;
+}
 section#home {
      width: 500px;
      float: left;
