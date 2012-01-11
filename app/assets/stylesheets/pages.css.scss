@@ -3,10 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+body {
+    background-color: #2B8E00;
+}
+
 article {
     display: block;
+    height: 2000px;
     width: 700px;
     margin: 0px auto;
+    padding: 20px;
     background-color: #FFFFFF;
 }
 
@@ -24,7 +30,7 @@ header {
 
 header h1 {
     font-size: 40px;
-
+    font-family: sans-serif;
 }
 
 nav {
