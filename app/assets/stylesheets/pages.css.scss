@@ -4,39 +4,59 @@
 
 
 body {
-    background-color: #2B8E00;
+    // background-color: #2B8E00;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom,
+      color-stop(0, #2B8E00),
+      color-stop(1, #FFF)
+    );
+    background-image: linear-gradient(
+      top, #2B8E00, #FFF
+    );
 }
 
 article {
     display: block;
-    height: 2000px;
-    width: 700px;
+    height: 1000px;
+    width: 900px;
     margin: 0px auto;
-    padding: 20px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #FFB400;
+    // padding-top: 10px;
+    // padding-left: 20px;
+    // padding-right: 20px;
     background-color: #FFFFFF;
+    -moz-box-shadow: 10px 10px 10px #333;
+    -webkit-box-shadow: 10px 10px 10px #333;
+    -o-box-shadow: 10px 10px 10px #333;
+    box-shadow: 10px 10px 10px #333;
 }
 
 header {
-    height: 100px;
+    height: 180px;
+    width: 900px;
     margin: 0px;
+    padding-top: 60px;
     text-align: center;
-    color: #FFF;
-    padding-top: 40px;
-    background-image: url(boxhill.jpg);
-    background-repeat: no-repeat;
+    color: #0044FF;
+    background-image: url(Grey_Heron.jpg);
+    background-repeat: repeat;
     background-position: center;
+    background-color: #9FF;
 
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: sans-serif;
 }
 
 nav {
-    height: 30px;
-    padding-top: 5px;
-    margin: 0px;
+    height: 50px;
+    width: 900px;
+    padding-top: 20px;
+    // margin-left: 50px;
     text-align: center;
     background-color: #39E639;
 }
@@ -47,12 +67,16 @@ nav ul {
 nav li {
      text-decoration: none;
      display: inline;
-     border-left: 1px solid #FFF;
-     border-right: 1px solid #FFF;
+     // border-left: 1px solid #FFF;
+     border-right: 2px solid #FFF;
      padding-left: 5px;
      padding-right: 5px;
-     font-size: 14pt;
+     font-size: 20pt;
      font-family: sans-serif;
+}
+
+nav li:last-child {
+     border-right: none;
 }
 
 img#text_decoration {
@@ -60,14 +84,29 @@ img#text_decoration {
      margin-right: 15px;
 }
 section#home {
-     width: 500px;
+     width: 520px;
+     margin-top: 30px;
+     margin-left: 70px;
      float: left;
 }
 
 section#sidebar {
-    margin-left: 500px;
-    padding-left: 10px;
+    margin-left: 620px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     width: 200px;
     font-size: 10pt;
+    text-align: left;
+    -moz-box-shadow: 5px 5px 5px #2B8E00;
+    -webkit-box-shadow: 5px 5px 5px #2B8E00;
+    -o-box-shadow: 5px 5px 5px #2B8E00;
+    box-shadow: 5px 5px 5px #2B8E00;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+section#sidebar h1 {
+    margin-left: -30px;
     text-align: center;
 }
