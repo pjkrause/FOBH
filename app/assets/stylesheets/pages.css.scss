@@ -35,10 +35,10 @@ article {
 }
 
 header {
-    height: 240px;
+    height: 220px;
     width: 900px;
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 25px;
     text-align: right;
     color: #0044FF;
     background-image: url(Grey_Heron.jpg);
@@ -63,32 +63,43 @@ header h1 {
 }
 
 nav {
-    height: 50px;
+    height: 40px;
     width: 900px;
-    padding-top: 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
     // margin-left: 50px;
     text-align: center;
     background-color: #39E639;
 }
 
 nav ul {
-    margin: 0px;
+    margin: 0px auto;
+    margin-left: 14px;
     padding: 0px;
+    text-align: center;
 }
 nav li {
      text-decoration: none;
      display: inline;
      // border-left: 1px solid #FFF;
      border-right: 2px solid #FFF;
-     padding: 20px 7px 20px 5px;
+     padding: 10px 7px 30px 5px;
+     margin: 0px;
+     float: left;
+     width: 110px;
      // padding-left: 5px;
      // padding-right: 5px;
-     font-size: 20pt;
+     font-size: 12pt;
      font-family: sans-serif;
 }
 
 nav li:last-child {
      border-right: none;
+}
+
+nav li:hover {
+     background-color: #2B8E00;
+     height: 0px;
 }
 
 img#text_decoration {
