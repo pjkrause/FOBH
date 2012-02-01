@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="FOBH log.svg">
+   sodipodi:docname="FOBH log.svg"
+   inkscape:export-filename="/Users/Paul_Krause/RubymineProjects/FOBH/app/assets/images/FOBH_logo.png"
+   inkscape:export-xdpi="43.029999"
+   inkscape:export-ydpi="43.029999">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -32,6 +35,13 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3006"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -40,16 +50,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-0.71428571"
+     inkscape:zoom="0.7"
+     inkscape:cx="146.42857"
      inkscape:cy="520"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="797"
      inkscape:window-height="677"
-     inkscape:window-x="1440"
-     inkscape:window-y="22"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -64,32 +74,49 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;opacity:0.50000000000000000"
+       id="rect3785"
+       width="228.57143"
+       height="320"
+       x="222.85715"
+       y="360.93362"
+       inkscape:export-xdpi="59.23"
+       inkscape:export-ydpi="59.23"
+       inkscape:export-filename="/Users/Paul_Krause/RubymineProjects/FOBH/app/assets/images/FOBH_logo.png" />
+  </g>
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g2933">
-      <text
-         sodipodi:linespacing="125%"
-         transform="scale(0.89447934,1.1179688)"
-         id="text2816"
-         y="595.77643"
+    <text
+       xml:space="preserve"
+       style="font-size:72.94754027999999835px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#0044ff;font-family:Monotype Corsiva;-inkscape-font-specification:Monotype Corsiva;stroke-opacity:1"
+       x="281.513"
+       y="595.77643"
+       id="text2816"
+       transform="scale(0.89447934,1.1179688)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2818"
          x="281.513"
-         style="font-size:72.94754028px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monotype Corsiva;-inkscape-font-specification:Monotype Corsiva"
-         xml:space="preserve"><tspan
-           y="595.77643"
-           x="281.513"
-           id="tspan2818"
-           sodipodi:role="line">FOBH</tspan></text>
-      <image
-         inkscape:transform-center-x="-104.28571"
-         inkscape:transform-center-y="121.9809"
-         xlink:href="file:///Users/Paul_Krause/RubymineProjects/FOBH/app/assets/images/fobh-boxtree.jpg"
-         width="208.57143"
-         height="186.14285"
-         id="image2908"
-         x="238.14871"
-         y="415.00504" />
-    </g>
+         y="595.77643">FOBH</tspan></text>
+    <image
+       y="367.51935"
+       x="230.71428"
+       id="image3008"
+       height="230.77142"
+       width="211.7169"
+       xlink:href="file:///Users/Paul_Krause/RubymineProjects/FOBH/app/assets/images/fobh-boxtree.jpg" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.99012625px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3787"
+       width="212.86702"
+       height="234.29559"
+       x="230.8522"
+       y="366.64294" />
   </g>
 </svg>
