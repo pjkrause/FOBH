@@ -20,16 +20,14 @@ body {
 
 article {
     display: block;
+    position: relative;
     height: 1000px;
-    width: 900px;
+    width: 1000px;
     margin: 0px auto;
     padding: 0px;
     border-style: ridge;
     border-width: 10px;
     border-color: #FFB400;
-    // padding-top: 10px;
-    // padding-left: 20px;
-    // padding-right: 20px;
     background-color: #FFFFFF;
     -moz-box-shadow: 10px 10px 10px #333;
     -webkit-box-shadow: 10px 10px 10px #333;
@@ -39,10 +37,9 @@ article {
 
 header {
     height: 220px;
-    width: 900px;
+    width: 1000px;
     margin: 0px;
     padding-top: 25px;
-    text-align: right;
     color: #0044FF;
     background-image: url(Grey_Heron.jpg);
     background-repeat: repeat;
@@ -54,12 +51,10 @@ header {
 header h1 {
     width: 151px;
     height: 211px;
-    // margin-left: 700px;
     padding: 0px;
-    margin: 0px 0px 0px 700px;
+    margin: 0px 0px 0px 800px;
     font-size: 60px;
     font-family: sans-serif;
-    text-align: right;
     background-image: url(FOBH_logo.png);
     background-repeat: none;
     background-position: right;
@@ -67,33 +62,39 @@ header h1 {
 
 nav {
     height: 40px;
-    width: 900px;
-    margin: 10px 0px 0px 0px;
+    width: 1000px;
+    margin: 0 auto; //10px 0px 0px 0px;
     padding: 0px;
-    // margin-left: 50px;
     text-align: center;
     background-color: #39E639;
 }
 
 nav ul {
-    margin: 0px auto;
-    margin-left: 14px;
-    padding: 0px;
+    // display: block;
+    // margin: 0 auto;
+    margin-left: 60px;
+    padding: 0;
     text-align: center;
 }
 nav li {
      text-decoration: none;
      display: inline;
-     // border-left: 1px solid #FFF;
      border-right: 2px solid #FFF;
-     padding: 10px 7px 30px 5px;
+     padding: 10px 7px 12px 5px;
      margin: 0px;
      float: left;
      width: 110px;
-     // padding-left: 5px;
-     // padding-right: 5px;
      font-size: 12pt;
      font-family: sans-serif;
+     color: #0000FF;
+}
+
+nav li a:link {
+     color: #0000FF;
+}
+
+nav li a:visited {
+     color: #0000FF;
 }
 
 nav li:last-child {
@@ -102,18 +103,22 @@ nav li:last-child {
 
 nav li:hover {
      background-color: #2B8E00;
-     height: 0px;
+     height: 18px;
 }
 
 img#text_decoration {
      float: left;
      margin-right: 15px;
 }
+
+section {
+     margin: 30px 25px 20px 25px;
+     padding: 30px 0 0 0;
+}
+
 section#home {
-     width: 520px;
-     margin-top: 30px;
-     margin-left: 70px;
-     float: left;
+     width: 420px;
+     margin: 0 auto;
 }
 section#home h1 {
     color: #0044FF;
@@ -125,12 +130,17 @@ section#home h1 {
 
 }
 
-section#sidebar {
-    margin-left: 620px;
-    margin-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    width: 200px;
+img#gallery {
+    padding-top: 10px;
+    width: 420px;
+    height: 420px;
+}
+
+section.sidebar {
+    position: absolute;
+    top: 375px;
+    padding: 0 10px 30px 30px;
+    width: 180px;
     font-size: 10pt;
     text-align: left;
     -moz-box-shadow: 5px 5px 5px #2B8E00;
@@ -141,7 +151,14 @@ section#sidebar {
     border-width: 5px;
 }
 
-section#sidebar h1 {
-    margin-left: -30px;
+section.sidebar h1 {
+    // margin-left: -30px;
     text-align: center;
+}
+section#left {
+    left: 10px;
+}
+
+section#right {
+    right: 10px;
 }
